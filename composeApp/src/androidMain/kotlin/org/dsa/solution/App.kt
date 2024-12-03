@@ -79,7 +79,7 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 @Preview
 fun App() {
     MaterialTheme {
-        var selectedItem by remember { mutableStateOf(3) }
+        var selectedItem by remember { mutableStateOf(0) }
         val items = listOf("Home", "Profile", "Favorite", "Settings")
         val icons = listOf(
             Icons.Default.Home,
